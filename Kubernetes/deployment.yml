@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: netflix-app
-        image: hemaatyam/netflix:${BUILD_BUMBER}
+        image: hemaatyam/netflix:8
         ports:
         - containerPort: 80
